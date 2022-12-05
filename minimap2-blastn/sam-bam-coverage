@@ -1,0 +1,58 @@
+#!/usr/bin/env perl
+# Author: Thomas Hackl, thackl@lim4.de
+
+use warnings;
+use strict;
+
+if ( !@ARGV || $ARGV[0] =~ /-h/) {
+    print "Compute mean and median coverage per sequence with `samtools depth`.\n";
+    print "Returns columns: seq_id, length, mean_cov, median_cov\n\n";
+    print "Usage: bam-coverage <bam> > cov.tsv\n";
+    exit;
+}
+
+open (SAMCOV, "samtools depth -aa $ARGV[0] |") or die $!;
+my $cctg = undef;
+my $tcov = 0;
+my $tn = 0;
+my ($ctg, $pos, $cov, $len);
+my %covs; # store for median comp.
+
+while (<SAMCOV>) {
+    chomp;
+    ($ctg, $pos, $cov) = split("\t", $_);
+    $cctg//= $ctg;
+    $cctg ne $ctg && report_cov();
+    $len = $pos; # needs lag
+    $tcov+=$cov;
+    $covs{$cov}++;
+}
+die "Empty or corrupted input bam\n" unless (defined($len));
+report_cov();
+
+
+sub report_cov{
+    my $mean = $tcov/$len;
+    my $med = median_cov(\%covs,$len);
+    
+    print sprintf("%s\t%d\t%0.2f\t%d\n", $cctg, $len, $mean, $med);
+    $cctg = $ctg;
+    $tcov = 0;
+    %covs = ();
+}
+
+sub median_cov{
+    my ($c,$len) = @_;
+    my $s = 0;
+    my $l50 = $len/2;
+    my $med;
+    foreach (sort{$a<=>$b}keys %$c) {
+        $s+=$c->{$_};
+        if ($s > $l50){
+            $med=$_;
+            last;
+        }
+        
+    }
+    return $med // 0;
+}
