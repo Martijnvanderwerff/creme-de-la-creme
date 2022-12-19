@@ -10,6 +10,12 @@ source /commons/conda/conda_load.sh
 conda activate /students/2022-2023/master/creme_de_la_creme/conda-envs/kraken2
 
 workdir=/students/2022-2023/master/creme_de_la_creme/kraken2/
+barcodes=( 05 06 )
 
-kraken2 --db ${workdir}kraken2-db-greengenes --threads $SLURM_CPUS_PER_TASK --use-names --report ${workdir}barcode05-greengenes/barcode05-greengenes.txt \
-${workdir}../fastq/pass/barcode05/*.fastq > ${workdir}barcode05-greengenes/barcode05-greengenes.kraken2
+for barcode in "${barcodes[@]}"
+do
+  : 
+  mkdir ${workdir}barcode${barcode}-greengenes
+  kraken2 --db ${workdir}kraken2-db-greengenes --threads $SLURM_CPUS_PER_TASK --use-names --report ${workdir}barcode${barcode}-greengenes/barcode${barcode}-greengenes.txt \
+  ${workdir}../fastq/pass/barcode${barcode}/*.fastq --output ${workdir}barcode${barcode}-greengenes/barcode${barcode}-greengenes.kraken2
+done
