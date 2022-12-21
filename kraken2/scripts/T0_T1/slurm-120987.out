@@ -1,0 +1,456 @@
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode01/barcode01.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode01/barcode01.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode01/barcode01.txt
+PROGRAM START TIME: 12-21-2022 14:23:03
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode01/barcode01.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 64 
+	  >> Number of species with reads > threshold: 64 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 177606
+	  >> Total reads kept at species level (reads > threshold): 174818
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 2549
+	  >> Reads not distributed (eg. no species above threshold): 225
+	  >> Unclassified reads: 14
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode01/barcode01.bracken
+PROGRAM END TIME: 12-21-2022 14:23:03
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode02/barcode02.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode02/barcode02.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode02/barcode02.txt
+PROGRAM START TIME: 12-21-2022 14:23:03
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode02/barcode02.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 88 
+	  >> Number of species with reads > threshold: 88 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 49707
+	  >> Total reads kept at species level (reads > threshold): 44503
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 4814
+	  >> Reads not distributed (eg. no species above threshold): 381
+	  >> Unclassified reads: 9
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode02/barcode02.bracken
+PROGRAM END TIME: 12-21-2022 14:23:03
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode03/barcode03.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode03/barcode03.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode03/barcode03.txt
+PROGRAM START TIME: 12-21-2022 14:23:03
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode03/barcode03.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 149 
+	  >> Number of species with reads > threshold: 149 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 37209
+	  >> Total reads kept at species level (reads > threshold): 29175
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 7410
+	  >> Reads not distributed (eg. no species above threshold): 615
+	  >> Unclassified reads: 9
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode03/barcode03.bracken
+PROGRAM END TIME: 12-21-2022 14:23:03
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode04/barcode04.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode04/barcode04.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode04/barcode04.txt
+PROGRAM START TIME: 12-21-2022 14:23:03
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode04/barcode04.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 6 
+	  >> Number of species with reads > threshold: 6 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 31
+	  >> Total reads kept at species level (reads > threshold): 23
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 2
+	  >> Reads not distributed (eg. no species above threshold): 0
+	  >> Unclassified reads: 6
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode04/barcode04.bracken
+PROGRAM END TIME: 12-21-2022 14:23:03
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode05/barcode05.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode05/barcode05.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode05/barcode05.txt
+PROGRAM START TIME: 12-21-2022 14:23:03
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode05/barcode05.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 228 
+	  >> Number of species with reads > threshold: 228 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 516274
+	  >> Total reads kept at species level (reads > threshold): 482840
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 31548
+	  >> Reads not distributed (eg. no species above threshold): 1829
+	  >> Unclassified reads: 57
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode05/barcode05.bracken
+PROGRAM END TIME: 12-21-2022 14:23:03
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode06/barcode06.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode06/barcode06.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode06/barcode06.txt
+PROGRAM START TIME: 12-21-2022 14:23:03
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode06/barcode06.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 215 
+	  >> Number of species with reads > threshold: 215 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 565702
+	  >> Total reads kept at species level (reads > threshold): 534554
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 28770
+	  >> Reads not distributed (eg. no species above threshold): 2243
+	  >> Unclassified reads: 135
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode06/barcode06.bracken
+PROGRAM END TIME: 12-21-2022 14:23:03
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode07/barcode07.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode07/barcode07.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode07/barcode07.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode07/barcode07.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 204 
+	  >> Number of species with reads > threshold: 204 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 346383
+	  >> Total reads kept at species level (reads > threshold): 317500
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 25553
+	  >> Reads not distributed (eg. no species above threshold): 3286
+	  >> Unclassified reads: 44
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode07/barcode07.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode08/barcode08.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode08/barcode08.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode08/barcode08.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode08/barcode08.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 288 
+	  >> Number of species with reads > threshold: 288 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 906556
+	  >> Total reads kept at species level (reads > threshold): 764358
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 129021
+	  >> Reads not distributed (eg. no species above threshold): 13135
+	  >> Unclassified reads: 42
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode08/barcode08.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode09/barcode09.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode09/barcode09.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode09/barcode09.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode09/barcode09.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 71 
+	  >> Number of species with reads > threshold: 71 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 10986
+	  >> Total reads kept at species level (reads > threshold): 9845
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 927
+	  >> Reads not distributed (eg. no species above threshold): 212
+	  >> Unclassified reads: 2
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode09/barcode09.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode10/barcode10.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode10/barcode10.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode10/barcode10.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode10/barcode10.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 123 
+	  >> Number of species with reads > threshold: 123 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 60722
+	  >> Total reads kept at species level (reads > threshold): 55913
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 4080
+	  >> Reads not distributed (eg. no species above threshold): 601
+	  >> Unclassified reads: 128
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode10/barcode10.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode11/barcode11.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode11/barcode11.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode11/barcode11.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode11/barcode11.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 95 
+	  >> Number of species with reads > threshold: 95 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 179122
+	  >> Total reads kept at species level (reads > threshold): 176170
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 2477
+	  >> Reads not distributed (eg. no species above threshold): 442
+	  >> Unclassified reads: 33
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode11/barcode11.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode12/barcode12.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode12/barcode12.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode12/barcode12.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode12/barcode12.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 151 
+	  >> Number of species with reads > threshold: 151 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 447472
+	  >> Total reads kept at species level (reads > threshold): 439186
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 7381
+	  >> Reads not distributed (eg. no species above threshold): 595
+	  >> Unclassified reads: 310
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode12/barcode12.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode13/barcode13.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode13/barcode13.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode13/barcode13.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode13/barcode13.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 144 
+	  >> Number of species with reads > threshold: 144 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 130581
+	  >> Total reads kept at species level (reads > threshold): 122178
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 7806
+	  >> Reads not distributed (eg. no species above threshold): 567
+	  >> Unclassified reads: 30
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode13/barcode13.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode14/barcode14.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode14/barcode14.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode14/barcode14.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode14/barcode14.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 144 
+	  >> Number of species with reads > threshold: 144 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 113051
+	  >> Total reads kept at species level (reads > threshold): 103973
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 8498
+	  >> Reads not distributed (eg. no species above threshold): 578
+	  >> Unclassified reads: 2
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode14/barcode14.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode15/barcode15.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode15/barcode15.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode15/barcode15.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode15/barcode15.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 233 
+	  >> Number of species with reads > threshold: 233 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 101363
+	  >> Total reads kept at species level (reads > threshold): 70253
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 29176
+	  >> Reads not distributed (eg. no species above threshold): 1906
+	  >> Unclassified reads: 28
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode15/barcode15.bracken
+PROGRAM END TIME: 12-21-2022 14:23:04
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode16/barcode16.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode16/barcode16.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode16/barcode16.txt
+PROGRAM START TIME: 12-21-2022 14:23:04
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode16/barcode16.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 264 
+	  >> Number of species with reads > threshold: 264 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 168157
+	  >> Total reads kept at species level (reads > threshold): 117658
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 47157
+	  >> Reads not distributed (eg. no species above threshold): 3246
+	  >> Unclassified reads: 96
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode16/barcode16.bracken
+PROGRAM END TIME: 12-21-2022 14:23:05
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode17/barcode17.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode17/barcode17.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode17/barcode17.txt
+PROGRAM START TIME: 12-21-2022 14:23:05
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode17/barcode17.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 164 
+	  >> Number of species with reads > threshold: 164 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 164278
+	  >> Total reads kept at species level (reads > threshold): 151401
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 12215
+	  >> Reads not distributed (eg. no species above threshold): 587
+	  >> Unclassified reads: 75
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode17/barcode17.bracken
+PROGRAM END TIME: 12-21-2022 14:23:05
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode18/barcode18.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode18/barcode18.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode18/barcode18.txt
+PROGRAM START TIME: 12-21-2022 14:23:05
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode18/barcode18.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 167 
+	  >> Number of species with reads > threshold: 167 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 220811
+	  >> Total reads kept at species level (reads > threshold): 206142
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 10987
+	  >> Reads not distributed (eg. no species above threshold): 961
+	  >> Unclassified reads: 2721
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode18/barcode18.bracken
+PROGRAM END TIME: 12-21-2022 14:23:05
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode19/barcode19.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode19/barcode19.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode19/barcode19.txt
+PROGRAM START TIME: 12-21-2022 14:23:05
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode19/barcode19.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 218 
+	  >> Number of species with reads > threshold: 218 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 176550
+	  >> Total reads kept at species level (reads > threshold): 152721
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 21737
+	  >> Reads not distributed (eg. no species above threshold): 1999
+	  >> Unclassified reads: 93
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode19/barcode19.bracken
+PROGRAM END TIME: 12-21-2022 14:23:05
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode20/barcode20.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode20/barcode20.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode20/barcode20.txt
+PROGRAM START TIME: 12-21-2022 14:23:05
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode20/barcode20.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 154 
+	  >> Number of species with reads > threshold: 154 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 102836
+	  >> Total reads kept at species level (reads > threshold): 87256
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 11888
+	  >> Reads not distributed (eg. no species above threshold): 3578
+	  >> Unclassified reads: 114
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode20/barcode20.bracken
+PROGRAM END TIME: 12-21-2022 14:23:05
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode21/barcode21.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode21/barcode21.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode21/barcode21.txt
+PROGRAM START TIME: 12-21-2022 14:23:05
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode21/barcode21.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 253 
+	  >> Number of species with reads > threshold: 253 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 168154
+	  >> Total reads kept at species level (reads > threshold): 139944
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 22757
+	  >> Reads not distributed (eg. no species above threshold): 5409
+	  >> Unclassified reads: 44
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode21/barcode21.bracken
+PROGRAM END TIME: 12-21-2022 14:23:05
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode22/barcode22.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode22/barcode22.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode22/barcode22.txt
+PROGRAM START TIME: 12-21-2022 14:23:05
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode22/barcode22.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 213 
+	  >> Number of species with reads > threshold: 213 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 105262
+	  >> Total reads kept at species level (reads > threshold): 86344
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 16750
+	  >> Reads not distributed (eg. no species above threshold): 2142
+	  >> Unclassified reads: 26
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode22/barcode22.bracken
+PROGRAM END TIME: 12-21-2022 14:23:05
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode23/barcode23.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode23/barcode23.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode23/barcode23.txt
+PROGRAM START TIME: 12-21-2022 14:23:06
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode23/barcode23.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 240 
+	  >> Number of species with reads > threshold: 240 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 196065
+	  >> Total reads kept at species level (reads > threshold): 167365
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 24983
+	  >> Reads not distributed (eg. no species above threshold): 3537
+	  >> Unclassified reads: 180
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode23/barcode23.bracken
+PROGRAM END TIME: 12-21-2022 14:23:06
+  Bracken complete.
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode24/barcode24.txt -o /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode24/barcode24.bracken -k /students/2022-2023/master/creme_de_la_creme/kraken2/kraken2-db-greengenes/database1500mers.kmer_distrib -l S -t 0
+>> Checking report file: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode24/barcode24.txt
+PROGRAM START TIME: 12-21-2022 14:23:06
+BRACKEN SUMMARY (Kraken report: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode24/barcode24.txt)
+    >>> Threshold: 0 
+    >>> Number of species in sample: 196 
+	  >> Number of species with reads > threshold: 196 
+	  >> Number of species with reads < threshold: 0 
+    >>> Total reads in sample: 186034
+	  >> Total reads kept at species level (reads > threshold): 169778
+	  >> Total reads discarded (species reads < threshold): 0
+	  >> Reads distributed: 14516
+	  >> Reads not distributed (eg. no species above threshold): 1721
+	  >> Unclassified reads: 19
+BRACKEN OUTPUT PRODUCED: /students/2022-2023/master/creme_de_la_creme/kraken2/T0_T1/greengenes/barcode24/barcode24.bracken
+PROGRAM END TIME: 12-21-2022 14:23:06
+  Bracken complete.
