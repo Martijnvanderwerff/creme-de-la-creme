@@ -11,11 +11,11 @@ conda activate /students/2022-2023/master/creme_de_la_creme/conda-envs/bracken
 
 workdir=/students/2022-2023/master/creme_de_la_creme/kraken2/
 
-bracken-build -d ${workdir}kraken2-db-greengenes -t $SLURM_CPUS_PER_TASK -k 35 -l 1500
+bracken-build -d ${workdir}kraken2-db-ncbi -t $SLURM_CPUS_PER_TASK -k 35 -l 1500
 
-for barcode in ${workdir}T0_T1/greengenes/*/*.txt
+for barcode in ${workdir}T0_T1/ncbi/*/*.txt
 do
   : 
-  bracken -d ${workdir}kraken2-db-greengenes -i ${barcode} \
+  bracken -d ${workdir}kraken2-db-ncbi -i ${barcode} \
   -o ${barcode}.bracken -r 1500
 done
